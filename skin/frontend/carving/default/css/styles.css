@@ -1,0 +1,18 @@
+.header{
+  width: 100%;
+  overflow: hidden;
+
+}
+.logo{
+  width:300px ;
+  height: 150px;
+  float: left;
+}
+.logo strong{
+  display: none;
+}
+.logo img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
