@@ -31,14 +31,14 @@
 // Browser Resets
 
 @import "vendor/normalize";
-@import "core/reset";
+// @import "core/reset";
 
 // ----------------------------------------------
 // Core
 
-@import "core/common";
-@import "core/form";
-@import "core/table";
+//@import "core/common";
+//@import "core/form";
+//@import "core/table";
 
 // ----------------------------------------------
 // Vendor
@@ -48,13 +48,13 @@
 // ----------------------------------------------
 // Layout
 
-@import "layout/global";
+//@import "layout/global";
 @import "layout/header";
-@import "layout/header-nav";
-@import "layout/header-search";
-@import "layout/header-account";
-@import "layout/header-cart";
-@import "layout/footer";
+//@import "layout/header-nav";
+//@import "layout/header-search";
+//@import "layout/header-account";
+//@import "layout/header-cart";
+//@import "layout/footer";
 
 // ----------------------------------------------
 // Modules
@@ -64,7 +64,7 @@
 //  2. Selectors of equal weight get applied based on which appears last in the stylesheet,
 //     so we should try not to change this order once it is in place
 
-@import "module/product-list";
+/* @import "module/product-list";
 @import "module/catalog-product";
 @import "module/catalog-msrp";
 @import "module/catalog-compare";
@@ -91,7 +91,7 @@
 @import "module/billing-agreements";
 @import "module/popular-terms";
 @import "module/widget";
-@import "module/checkout-multi-address";
+@import "module/checkout-multi-address"; */
 
 // ----------------------------------------------
 // Override
